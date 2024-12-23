@@ -1,0 +1,11 @@
+dotnet new webapp -n YourProjectName
+---
+cd YourProjectName
+---
+code .
+---
+dotnet restore
+---
+dotnet run
+---in case of not working fine try 
+dotnet run --launch-profile https
